@@ -1,0 +1,23 @@
+1)FOR UNWEIGHTED GRAPHS
+SIMPLE BFS FORM NODE I GIVES ITS SHORTEST PATH FROM EVERY OTHER REACHEABLE NODES
+
+2)FOR WEIGHTED EDGES WITH POSITIVE WEIGHTES
+DIJJU IS USED
+DIJJU IS NOT APPLIED ON GRAPHS WITH NEGATIVE WEIGHT EDGES
+
+3)IF WE RUN DFS(ROOT) IN A ROOTED TREE, THEN
+V IS ANCESTOR OF U IF AND ONLY IF 
+startTime(v)<=startTime(u)<=endTime(u)<=endTime(v)
+
+/*
+APPLICATIONS OF DEPTH FIRST SEARCH
+1) printing paths from a given source vertex to all other reacheable vertex
+2) calculating the arival and departure time for every vertex
+3) check if a vertex is an ancestor of other vertex in a tree
+4) topological sorting of vertices of the given graph
+5) check if there is cycle in undirected and directed graphs
+6) finding the strongly connected components in a directed graph
+7) finding bridges in undirected graphs
+*/
+
+

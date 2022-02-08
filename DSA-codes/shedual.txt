@@ -1,0 +1,108 @@
+****** DATA STRUCTURES ******
+
+LINKED LIST
+1/2 days of more practise of double and multilevel linked list(specially double linked list and its questions)
+
+
+STACK
+some standard questions and KR questions form gfg
+leetcode and hackerrank all 60 questions
+
+
+QUEUE
+KR questions
+some more ques from gfg
+leetcode all(6/7)
+
+
+BINARY SEARCH TREE
+implimentaions all KR questions
+all gfg questions
+all leetcode questions(3)
+
+
+BINARY TREE
+implementaions and all KR questions(its more than enough)
+
+
+*131 QUESTIONS ON TREE FROM LEETCODE*
+
+
+HEAP
+implementaions and KR questions + Huffman
+learn STL for heap
+ALL 34 questions on heap from Leetcode
+
+
+AVL tree 
+implementation and some questions(applications)
+
+
+KD tree 
+implementation and some questions(applications)
+
+
+Treap and winner tree 
+implementation and some questions(applications)
+
+
+GENERAL TREE 
+implementaion and KR questions 
+
+
+M-ARY TREE
+implementation(create,delete) and some questions(applications)
+
+
+*B-TREE*
+implementation of all variations + B-tree delete
+
+
+SEGMENT TREE
+implementation and KR questions
+all 12 questions from Leetcode + 8 questions from gfg
+/*if possible see segment tree with lazy propagation and segment tree bits*/
+
+
+*TRIE* 
+implementations of all variations + trie delete 
+all 17 questions form leetcode + 8 questions from gfg
+
+
+/* try to do */
+flow tree 
+binary indexed tree
+/* if possible */
+
+******GRAPH********
+
+DISJOINT SETS
+implementation and all 29 questions from leetcode
+
+
+GRAPH BASICS AND TOPOLOGICAL SORT AND CYCLE
+implementations and some basic questions on graph and topological sort and cycles in graph
+6 questions on topo sort from leetcode
+
+
+BFS AND DFS 
+implement bfs and dfs from all kinds of graph
+dfs 121 questions on leetcode(try to do as many as possible)
+bfs 67 questions on leetcode(try to do as many as possible)
+
+
+EULER AND HAMILTONIAN PATH/CYCLE
+implement euler and hamiltonian algo 
+
+
+MINIMUM SPANNING TREE
+krushkal and prims algo 
+
+
+BICONNECTED + BRIDGE + CUT-VERTEX IN A GRAPH
+
+
+* DIWALI DHAMAKA 1 + DIWALI DHAMAKA 2*
+* NOVEMBER ASSIGNMENT(all 12 questions) *
+
+* 41 questions on GRAPH from LEETCODE *

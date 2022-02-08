@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function calc()
+            {
+                event.preventDefault();
+                var bcws=parseInt(document.getElementById('bcws').value);
+                var bcwp=parseInt(document.getElementById('bcwp').value);
+                var acwp=parseInt(document.getElementById('acwp').value);
+                var eac=parseInt(document.getElementById('eac').value);
+                var bac=parseInt(document.getElementById('bac').value);
+
+                if(bcwp<0 || bcws<0 || acwp<0 || eac<0 || bac<0)
+                {
+                    alert("Sorry!! the given inputs are invalid since the cost cannot be negative.");
+                    return;
+                }
+                if(bac < bcws) 
+                {
+                    alert("Sorry!! the given inputs are invalid.The work for whole task cannot be less than the schedeuled." );
+                    return;
+                }
+                if(bcwp === 0 || acwp === 0)
+                {
+                    alert("Sorry!! the given inputs are invalid.The work performed is 0 means the work is not started yet.");
+                    return;
+                }      
+                if(bcws === 0)
+                {
+                    alert("Sorry!! the given inputs are invalid.The work scheduled cost cannot be 0 for a project.");
+                    return;
+                }
+                if(bac === 0 || eac===0)
+                {
+                    alert("Sorry!! the given inputs are invalid.The estimated or expected budget at completion cannot be 0.");
+                    return;
+                }
+                var cv=bcwp-acwp;
+                var sv=bcwp-bcws;
+
+                var n1=document.getElementById('cv').value=cv;
+                var n2=(cv*100)/bcwp;
+                var n3=document.getElementById('cv_in_percentage').value=n2;
+
+                // if(cv < 0)
+                // {
+                //     var a1="Project is cost overrun";
+                //     var a2=document.getElementById('sc_status').value=a2;
+                // }
+                // elif( cv > 0)
+                // {
+                //     var a1="Project is cost underrun";
+                //     var a2=document.getElementById('sc_status').value=a2;
+                // }
+                // elif( cv === 0)
+                // {
+                //     var a1="Project is costing expectedly";
+                //     var a2=document.getElementById('sc_status').value=a2;
+                // }
+
+                var n4=document.getElementById('sv').value=sv;
+                var n5=(sv*100)/bcws;
+                var n6=document.getElementById('sv_in_percentage').value=n5;
+                
+                // if( sv < 0)
+                // {   
+                //     var a1="Project is behind schedule";
+                //     var a2=document.getElementById('sv_status').value=a1;
+                // }
+                // elif( sv > 0)
+                // {
+                //     var a1="Project is ahead schedule";
+                //     var a2=document.getElementById('sv_status').value=a1;
+                // }
+                // elif( sv === 0)
+                // {
+                //     var a1="Project is running expectedly.";
+                //     var a2=document.getElementById('sv_status').value=a1;
+                // }
+                var n7=(bcwp/acwp);
+                var n8=(bcwp/bcws);
+                var n9=bac-eac;
+                var cpi=document.getElementById('cpi').value=n7;
+                var spi=document.getElementById('spi').value=n8;
+                var vac=document.getElementById('vac').value=n9;
+            }
+        </script>
+        <title>
+            Earned Value Analysis
+        </title>
+    </head>
+    <body>
+        <form action="">
+            <input type="text" id="bcws"/>
+            
+            <input type="text" id="bcwp"/>
+
+            <input type="text" id="acwp"/>
+
+            <input type="text" id="eac"/>
+
+            <input type="text" id="bac"/>
+
+            <input type="text" id="cv"/>
+
+            <input type="text" id="cv_in_percentage"/>
+
+            <input type="text" id="cv_status"/>
+
+            <input type="text" id="sv"/>
+
+            <input type="text" id="sv_in_percentage"/>
+
+            <input type="text" id="sv_status"/>
+
+            <input type="text" id="cpi"/>
+
+            <input type="text" id="spi"/>
+
+            <input type="text" id="vac"/>
+
+            <button type="button" onclick="calc()">=</button> 
+
+        </form>
+    </body>
+</html>
+

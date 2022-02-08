@@ -1,0 +1,24 @@
+package com.raj;
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+    static int a=3;
+    static  int b;
+    static void meth(int x)
+    {
+        System.out.println("value of x "+x);
+        System.out.println("value of a "+a);
+        System.out.println("value of b "+b);
+
+    }
+    static {
+        System.out.println("static block initialized");
+        b=a*4;
+    }
+    public static void main(String args[])
+    {
+        meth(42);
+    }
+}

@@ -1,0 +1,21 @@
+1)two pointers
+2)sorting 
+3)recursion + backtracking
+4)STL
+5)hashing ans hash tables
+6)bit manipulations
+7)array(matrix) and string manipulations
+8)segment trees
+9)trie
+10)DYNAMIC PROGRAMMING
+11)GRAPH
+12)greedy
+13)union and find
+14)divide and conquer
+15)sliding window
+
+honorable mentions
+1)maths(prime,pnc,probability,comninatorics)
+2)randomized algorithms
+3)design(refer leetcode)
+
